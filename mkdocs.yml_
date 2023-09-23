@@ -1,0 +1,72 @@
+site_name: Paediatric Radiology
+theme: 
+  name: material
+  custom_dir: overrides
+  icon:  
+    logo: paed_rad.png
+  favicon: 
+  features:
+    - toc.integrate
+    - search
+    - search.suggest
+    - search.highlight
+    - table
+    - footnotes
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: green
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: green
+      accent: blue
+nav:
+   - Home: index.md
+   - Presentations: 
+     - Abdominal pain. Vomiting. Mass: presentations/abdomen.md
+     - 'Cough. SoB. Wheeze. Stridor': 'presentations/chest.md'
+     - 'Precocious/Delayed puberty. Ambiguous Genitalia': 'presentations/dsd.md'
+     - 'Failure to Thrive': 'presentations/ftt.md'
+     - 'Limp': 'presentations/limp.md'
+     - 'Trauma. NAI.': 'presentations/trauma.md'
+     - 'UTI. Haematuria. Testicular Pain': 'presentations/urinary.md'
+     - 'Pelvic Pain. Mass': 'presentations/pelvis.md'
+     - 'Headache. Diplopia. Epilepsy. Back pain. Paralysis': 'presentations/neuro.md'
+   - 'Conditions': 
+     - 'Acute Neonatal and Childhood Abdominal Conditions': 'conditions/abdomen.md'
+     - 'Acute and Chronic chest conditions in neonates & children': 'conditions/chest.md'
+     - 'Cardiac & Mediastinal Abnormalities': 'conditions/cardiac.md'
+     - 'Conditions affecting Genitalia': 'conditions/genitalia.md'
+     - 'Childhood tumours': 'conditions/tumours.md'
+     - 'Non-traumatic childhood skeletal conditions': 'conditions/msk.md'
+     - 'Accidental & Non-accidental injury in Children.': 'conditions/trauma.md'
+     - 'Disorders of the Urinary Tract': 'conditions/urinary.md'
+     - 'Acute Neurological Conditions': 'conditions/neuro.md'
+     - 'Congenital Conditions': 'conditions/congenital.md'
+     - 'Systemic diseases in children': 'conditions/systemic.md'
+   - 'Techniques':
+     - 'Plain Film': 'technique/plain_film.md'
+     - 'Ultrasound': 'technique/ultrasound.md'
+     - 'CT': 'technique/CT.md'
+     - 'MRI': 'technique/MRI.md'
+     - 'Fluoro': 'technique/fluoro.md'
+     - 'NM': 'technique/NM.md'
+     - 'Other': 'technique/other.md'
+   - 'Stylesheet': 'anotherpage.md'
+markdown_extensions:
+  - footnotes
+plugins:
+  - social
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/TheDrCrow'
+extra_css: 
+  - stylesheets/extra.css
+
