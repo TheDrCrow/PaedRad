@@ -64,3 +64,12 @@ graph TB
 ```
 
 ##### And a lot more on the Mermaid JS website docs.
+
+--- 
+
+### References 
+
+[^Sarvis Milla2023]: Sarvis Milla S & Lala S. Problem Solving in Pediatric Imaging. 978-1-4377-2612-1 Elsevier 2023. 
+[^Merrow2018]: Merrow C & Hariharan S. Imaging in Pediatrics. 978-0-323-47778-9 Elsevier 2018. 
+[^Pomeranz2016]: Pomeranz A, Sabnis S, Busey S, Kliegman R. Pediatric Decision Making Strategies 978-0-323-29854-4.
+[^Kliegman2023]: Kliegman R, Toth H, Bordini B, Basel D. Nelson Pediatric Symptom Based Diagnosis. 978-0-323-76174-1 Elsevier 2023 
